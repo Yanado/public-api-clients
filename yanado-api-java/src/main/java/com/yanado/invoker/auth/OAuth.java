@@ -18,7 +18,7 @@ import com.yanado.invoker.Pair;
 import java.util.Map;
 import java.util.List;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-09T11:43:43.254Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-09T12:10:48.793Z")
 public class OAuth implements Authentication {
   private String accessToken;
 
