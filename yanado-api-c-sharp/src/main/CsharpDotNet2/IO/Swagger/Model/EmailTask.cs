@@ -1,0 +1,189 @@
+using System;
+using System.Text;
+using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.Serialization;
+using Newtonsoft.Json;
+
+namespace IO.Swagger.Model {
+
+  /// <summary>
+  /// 
+  /// </summary>
+  [DataContract]
+  public class EmailTask {
+    /// <summary>
+    /// Task assignee id
+    /// </summary>
+    /// <value>Task assignee id</value>
+    [DataMember(Name="assigneeId", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "assigneeId")]
+    public string AssigneeId { get; set; }
+
+    /// <summary>
+    /// Task assignee name
+    /// </summary>
+    /// <value>Task assignee name</value>
+    [DataMember(Name="assigneeName", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "assigneeName")]
+    public string AssigneeName { get; set; }
+
+    /// <summary>
+    /// Id
+    /// </summary>
+    /// <value>Id</value>
+    [DataMember(Name="id", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "id")]
+    public int? Id { get; set; }
+
+    /// <summary>
+    /// Task list id
+    /// </summary>
+    /// <value>Task list id</value>
+    [DataMember(Name="listId", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "listId")]
+    public string ListId { get; set; }
+
+    /// <summary>
+    /// Task list name
+    /// </summary>
+    /// <value>Task list name</value>
+    [DataMember(Name="listName", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "listName")]
+    public string ListName { get; set; }
+
+    /// <summary>
+    /// Participant email
+    /// </summary>
+    /// <value>Participant email</value>
+    [DataMember(Name="participantEmail", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "participantEmail")]
+    public string ParticipantEmail { get; set; }
+
+    /// <summary>
+    /// Participant name
+    /// </summary>
+    /// <value>Participant name</value>
+    [DataMember(Name="participantName", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "participantName")]
+    public string ParticipantName { get; set; }
+
+    /// <summary>
+    /// Task status id
+    /// </summary>
+    /// <value>Task status id</value>
+    [DataMember(Name="statusId", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "statusId")]
+    public string StatusId { get; set; }
+
+    /// <summary>
+    /// Task status name
+    /// </summary>
+    /// <value>Task status name</value>
+    [DataMember(Name="statusName", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "statusName")]
+    public string StatusName { get; set; }
+
+    /// <summary>
+    /// Subject
+    /// </summary>
+    /// <value>Subject</value>
+    [DataMember(Name="subject", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "subject")]
+    public string Subject { get; set; }
+
+    /// <summary>
+    /// Task created
+    /// </summary>
+    /// <value>Task created</value>
+    [DataMember(Name="taskCreated", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "taskCreated")]
+    public DateTime? TaskCreated { get; set; }
+
+    /// <summary>
+    /// Task description
+    /// </summary>
+    /// <value>Task description</value>
+    [DataMember(Name="taskDescription", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "taskDescription")]
+    public string TaskDescription { get; set; }
+
+    /// <summary>
+    /// Task due date
+    /// </summary>
+    /// <value>Task due date</value>
+    [DataMember(Name="taskDueDate", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "taskDueDate")]
+    public DateTime? TaskDueDate { get; set; }
+
+    /// <summary>
+    /// Task high priority
+    /// </summary>
+    /// <value>Task high priority</value>
+    [DataMember(Name="taskHighPriority", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "taskHighPriority")]
+    public bool? TaskHighPriority { get; set; }
+
+    /// <summary>
+    /// Task id
+    /// </summary>
+    /// <value>Task id</value>
+    [DataMember(Name="taskId", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "taskId")]
+    public string TaskId { get; set; }
+
+    /// <summary>
+    /// Task Name
+    /// </summary>
+    /// <value>Task Name</value>
+    [DataMember(Name="taskName", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "taskName")]
+    public string TaskName { get; set; }
+
+    /// <summary>
+    /// Thread id
+    /// </summary>
+    /// <value>Thread id</value>
+    [DataMember(Name="threadId", EmitDefaultValue=false)]
+    [JsonProperty(PropertyName = "threadId")]
+    public string ThreadId { get; set; }
+
+
+    /// <summary>
+    /// Get the string presentation of the object
+    /// </summary>
+    /// <returns>String presentation of the object</returns>
+    public override string ToString()  {
+      var sb = new StringBuilder();
+      sb.Append("class EmailTask {\n");
+      sb.Append("  AssigneeId: ").Append(AssigneeId).Append("\n");
+      sb.Append("  AssigneeName: ").Append(AssigneeName).Append("\n");
+      sb.Append("  Id: ").Append(Id).Append("\n");
+      sb.Append("  ListId: ").Append(ListId).Append("\n");
+      sb.Append("  ListName: ").Append(ListName).Append("\n");
+      sb.Append("  ParticipantEmail: ").Append(ParticipantEmail).Append("\n");
+      sb.Append("  ParticipantName: ").Append(ParticipantName).Append("\n");
+      sb.Append("  StatusId: ").Append(StatusId).Append("\n");
+      sb.Append("  StatusName: ").Append(StatusName).Append("\n");
+      sb.Append("  Subject: ").Append(Subject).Append("\n");
+      sb.Append("  TaskCreated: ").Append(TaskCreated).Append("\n");
+      sb.Append("  TaskDescription: ").Append(TaskDescription).Append("\n");
+      sb.Append("  TaskDueDate: ").Append(TaskDueDate).Append("\n");
+      sb.Append("  TaskHighPriority: ").Append(TaskHighPriority).Append("\n");
+      sb.Append("  TaskId: ").Append(TaskId).Append("\n");
+      sb.Append("  TaskName: ").Append(TaskName).Append("\n");
+      sb.Append("  ThreadId: ").Append(ThreadId).Append("\n");
+      sb.Append("}\n");
+      return sb.ToString();
+    }
+
+    /// <summary>
+    /// Get the JSON string presentation of the object
+    /// </summary>
+    /// <returns>JSON string presentation of the object</returns>
+    public string ToJson() {
+      return JsonConvert.SerializeObject(this, Formatting.Indented);
+    }
+
+}
+}
