@@ -18,7 +18,7 @@ import com.yanado.invoker.Pair;
 import java.util.Map;
 import java.util.List;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-09T12:10:48.793Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-21T10:08:54.066Z")
 public class ApiKeyAuth implements Authentication {
   private final String location;
   private final String paramName;

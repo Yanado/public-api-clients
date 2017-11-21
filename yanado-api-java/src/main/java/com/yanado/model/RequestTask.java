@@ -30,7 +30,7 @@ import java.util.Map;
 /**
  * RequestTask
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-09T12:10:48.793Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-21T10:08:54.066Z")
 public class RequestTask {
   @SerializedName("assigneeId")
   private String assigneeId = null;
